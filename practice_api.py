@@ -1,6 +1,6 @@
 import requests, json
 
-api_key= 'c7f899b2d7e64f68a60be22737f6f983'
+api_key= 'KEY'
 
 def news_api_request(api_key, term):
 	baseurl= 'https://newsapi.org/v2/everything?q={}&apiKey={}'.format(term, api_key)
